@@ -1,0 +1,87 @@
+
+#fixed {
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 40;
+    height: 100vh;
+}
+
+#emplist2 {
+    margin-top: 774px;
+    margin-left: 5px;
+    color: #fff;
+    background-color: #03AEEE;
+    height: 50px;
+    z-index: -1;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#circle {
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.row {
+    display: flex;
+    width: calc((100%-800px));
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: small;
+    height:90px;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: calc((100%-800px)/6);
+}
+
+#idfield{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#botsec2{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    margin-bottom: 100vh;
+    left: 319px;
+    width: 1200px;
+    height: 200px;
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #9D9D9D29;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+#toplabel{
+    font-family: sans-serif;
+    font-size: medium;  
+    height:20px;
+    color:grey;
+}
+
+#anctext2{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
